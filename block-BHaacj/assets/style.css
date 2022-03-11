@@ -1,0 +1,439 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #c7c3c3;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general propety */
+::before,
+::after{
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-1{
+	display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+/* main body */
+/* header */
+
+header{
+    background-color: white;
+}
+.head{
+    margin: 30px;
+}
+h1{
+    font-size: 36px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+.ul a {
+    margin-right: 60px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.hm a{
+    color: #69C6BA; 
+}
+/* main */
+/* first-section  */
+
+.sec-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/banner.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+.topic-hd{
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.topic-hd h2{
+    font-size: 36px;
+}
+.topic-hd figure img{
+    margin: 8px;
+}
+.topic-hd strong{
+    font-size: 24px;
+}
+.topic-hd figure i{
+    margin-top: 10px;
+    color: #69C6BA;
+}
+/* form 1 */
+.form-1{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+.booking{
+    width: 48%;
+    font-weight: 700;
+    margin: 20px 10px;
+}
+.booking-sec{
+    margin: 20px 10px;
+    width: 48%;
+    font-weight: 700;
+
+}
+.booking legend{
+    font-size: 18px;
+}
+.des{
+    width: 100%;
+    padding: 5px;
+    margin-left: 10px;
+    border: 0;
+    margin: 20px 0;
+}
+.booking-sec legend{
+    font-size: 18px;
+}
+.size{
+    width:100%;
+}
+.size input{
+    margin: 20px 0;
+    border: 0;
+}
+.size-2{
+    width: 40%;
+    margin: 20px 0;
+    border: 0;
+}
+.booking-sec button{
+    margin: 30px 0;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background-color: #69C6BA;
+}
+.booking-sec button a{
+    color: white;
+}
+/* second section */
+
+.quote-bg{
+    background-color: #EFEFEF;
+    padding: 10px 0;
+}
+.quote{
+    width: 80%;
+    margin: 30px auto;
+    
+}
+.quote h2{
+    text-align: center;
+    font-size: 32px;
+}
+.quote strong{
+    font-weight: 600;
+}
+.quote p{
+    text-align: center;
+    color: #5B5D5F;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.quote a button{
+    margin-left: 340px;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    background-color: #69C6BA;
+    border: 0;
+}
+/* section 3 */
+.europe img{
+    width: 50%;
+}
+.about{
+    background-color: white;
+    position: relative;
+}
+.abt-europe{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.sign i{
+    width: 20px;
+    height: 20px;
+    background-color: #847D75;
+    padding: 4px;
+}
+.europe-content{
+    width: 70%;
+    background-color: #69C6BA;
+    color: white;
+    padding: 20px;
+}
+.europe-content h3{
+    font-size: 24px;
+}
+.europe-content p{
+    font-size: 12px;
+    margin: 8px 0;
+    padding-right: 5px;
+}
+.europe-content a button{
+    padding: 5px;
+    background-color: white;
+    border: 0;
+    margin: 5px 0;
+    color: #69C6BA;
+}
+/* asia */
+.asia img{
+    width: 500px;
+    margin-left: 500px;
+}
+.Continent-asia{
+    position: relative;
+}
+.abt-asia{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.sign i{
+    width: 20px;
+    height: 20px;
+    background-color: #847D75;
+    padding: 4px;
+}
+.asia-content{
+    width: 50%;
+    background-color: #C66995;
+    color: white;
+    padding: 20px;
+}
+.asia-content h3{
+    font-size: 24px;
+}
+.asia-content p{
+    font-size: 12px;
+    margin: 8px 0;
+    padding-right: 5px;
+}
+.asia-content a button{
+    padding: 5px;
+    background-color: white;
+    border: 0;
+    margin: 5px 0;
+    color: #C66995;
+}
+/* america */
+.america img{
+    width: 50%;
+}
+.continent-america{
+    background-color: white;
+    position: relative;
+}
+.abt-america{
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+}
+.sign i{
+    width: 20px;
+    height: 20px;
+    background-color: #847D75;
+    padding: 4px;
+}
+.america-content{
+    width: 70%;
+    background-color: #69C6BA;
+    color: white;
+    padding: 20px;
+}
+.america-content h3{
+    font-size: 24px;
+}
+.america-content p{
+    font-size: 12px;
+    margin: 8px 0;
+    padding-right: 5px;
+}
+.america-content a button{
+    padding: 5px;
+    background-color: white;
+    border: 0;
+    margin: 5px 0;
+    color: #69C6BA;
+}
+/* map */
+.design{
+    background-color: #69C6BA;
+}
+.map-design{
+    padding: 20px;
+    text-align: center;
+}
+.map-design p{
+    color: white;
+}
+.asia-map{
+    background-color: #C66995;
+}
+/* about hotel */
+.abt-hotel{
+    background-color: white;
+    padding: 30px 0;
+}
+.hotel-content{
+    width: 800px;
+    border: 1px solid #D7E0DF;
+    margin: 10px auto;
+    position: relative;
+}
+.hotel{
+    margin: 20px;
+
+}
+.hotel h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+.hotel span{
+    color: #C66995;
+}
+.hotel p{
+    margin-top: 20px;
+    color: #A9A7A7;
+}
+.curve{
+    position: absolute;
+    right: 120px;
+}
+.curve img{
+    width: 100%;
+}
+.price{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: #69C6BA;
+    flex-direction: column;
+    padding-top: 55px;
+}
+.price span{
+    color: white;
+}
+.price strong{
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.abt-hotel button{
+    margin-left: 450px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #69C6BA;
+    color: white;
+    border: 0;
+}
+/* map and form */
+.map iframe{
+    width: 100%;
+}
+.map-form{
+    position: relative;
+}
+.map-content{
+    width: 45%;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+.space{
+    width: 45%;
+    padding: 5px;
+    margin: 10px 0;
+    border: none;
+    background-color: #A9A7A7;
+}
+.sub{
+    width: 94%;
+    padding: 5px;
+}
+textarea{
+    width: 94%;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    background-color: #A9A7A7;
+    color: #5B5D5F;
+}
+.btn{
+    width: 95%;
+    padding: 5px;
+    border: 0;
+    background-color: #69C6BA;
+    color: white;
+}
